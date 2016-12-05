@@ -1,0 +1,203 @@
+/* =============== GENERAL SETTINGS =============== */
+
+html {
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #1B2023;
+	background: #FFF;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+
+section {
+	padding: 75px .5em;
+}
+
+section:nth-child(odd) {
+	background: #eee;
+}
+section:nth-child(even) {
+	background: #fff;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 980px;
+}
+
+.wrap {
+	max-width: 1120px;
+	margin: 0 auto;
+	padding: 0 .5em;
+}
+
+.container:before,
+.container:after {
+	content: " ";
+	/* 1 */
+
+	display: table;
+	/* 2 */
+}
+
+.container:after {
+	clear: both;
+}
+
+.line {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #1B2023;
+	margin: 0;
+	padding-bottom: 1em;
+}
+
+a {
+	text-decoration: none;
+	color:  #1771AB;
+}
+
+h1 {
+	font-size: 2.8em;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px rgba(255,188,103,.7);
+}
+
+h2 {
+	font-size: 2.3em;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.7em;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+h5 {
+	font-size: 1em;
+	font-weight: 600;
+}
+
+h6 {
+	font-size: 1em;
+	font-weight: 500;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: 400;
+}
+
+p.italic {
+	font-style: italic;
+}
+
+li {
+	list-style-type: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.line:before,
+.line:after {
+	content: " ";
+	display: table;
+}
+
+.line:after {
+	clear: both;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+.bad-response {
+	margin: 2em 0.5em;
+	padding: .7em;
+	background: rgba(185,18,27,.4);
+	border-radius: .5em
+}
+
+.good-response {
+	margin: 2em 0.5em;
+	padding: .7em;
+	background: rgba(103,255,103,.6);
+	border-radius: .5em
+}
