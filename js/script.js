@@ -1,5 +1,22 @@
 (function($){
 
+	/*Scrollreveal*/
+
+	window.sr = ScrollReveal();
+	sr.reveal('.profilePic', {
+		origin:'left',
+		duration: 1000,
+		distance: '100px',
+		delay: 200
+	});
+
+	sr.reveal('.skill', { 
+		origin:'left',
+		duration: 500,
+		distance: '100px',
+		delay: 100
+	});
+
 	/*Sticky Navigation*/
 
 	var mainNav = $('.main-nav'),
